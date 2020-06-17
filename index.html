@@ -11,12 +11,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Pong game built using HTML5 and javascript">
   <meta name="author" content="Ben Wright">
-
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <title>Ben Wright | Pong Game</title>
 
   <!--bootstrap -->
-  <link href="CSS/bootstrap.css" rel="stylesheet" />
-  <link href="CSS/bootstrap-theme.css" rel="stylesheet" />
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+  <link href="vendor/bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
 
   <!-- Custom fontsx -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
@@ -33,18 +35,22 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <span class="d-none d-lg-block">
+            <h2 class="nav-link col-3"style="color:#ffffff !important">Pong Game Created Using HTML5 And JavaScript </h2>
+            </span>
+          </li>
+        </ul>
+      </div>
 
-      <span class="d-none d-lg-block">
-      <h2 style="color:#ffffff !important">Pong Game Created Using HTML5 And JavaScript </h2>
-      </span>
     </a>
-    <div class="collapse navbar-collapse">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="">Profile</a>
+          <button type="button" class="btn btn-primary" href="https://itsbenwright10.github.io/">Home</a>
         </li>
       </ul>
-    </div>
   </nav>
 
 <body>
@@ -54,10 +60,6 @@
     <canvas id="gameCanvas" width="800" height="600"></canvas>
   </div>
   <script src="js/pongGame.js"></script>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
