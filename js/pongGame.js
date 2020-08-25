@@ -10,7 +10,7 @@ var ballSpeedY = 4;
 //defining scores
 var player1Score = 0;
 var player2Score = 0;
-const WINNING_SCORE = 15;
+const WINNING_SCORE = 5;
 
 var showingWinScreen = false;
 //defining the paddle designs

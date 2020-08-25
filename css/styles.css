@@ -1,3 +1,4 @@
+/* Main Styles */
 body {
   font-family: 'Muli', 'Helvetica Neue', Arial, sans-serif;
   padding-top: 54px;
@@ -47,7 +48,9 @@ p.lead {
   font-family: 'Saira Extra Condensed', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5rem;
 }
+/* End Main Styles */
 
+/* Icons */
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
@@ -76,7 +79,9 @@ p.lead {
 .dev-icons .list-inline-item i:hover {
   color: #0b4e96;
 }
+/* End Icons */
 
+/* NavBar */
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -148,34 +153,9 @@ p.lead {
     display: block;
   }
 }
+/* End NavBar */
 
-section.profile-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
-}
-
-section.profile-section {
-  min-width: none;
-}
-
-@media (min-width: 768px) {
-  section.profile-section {
-    min-height: 100vh;
-  }
-
-  section.profile-section {
-    min-width: 18rem;
-  }
-}
-
-@media (min-width: 992px) {
-  section.profile-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-  }
-}
-
+/* Side Bar Section */
 .bg-primary {
   background-color: #0b4e96 !important;
 }
@@ -191,49 +171,4 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
-
-/* Hover image styles */
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 50%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(15, 78, 150, 0.64);
-  overflow: hidden;
-  width: 50%;
-  height: 0;
-  transition: 1s ease;
-}
-
-.container:hover .overlay {
-  height: 100%;
-}
-
-.text {
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.container-padding{
-  padding-left:50px;
-}
-.pr-40{
-  padding-right: 40px;
-}
+/* End Side Bar Section */
